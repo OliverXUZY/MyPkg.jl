@@ -1,0 +1,13 @@
+name = "MyPkg"
+uuid = "892fc16b-4c84-4bcf-9fbf-c59e4cd72e22"
+authors = ["Zhuoyan Xu <zxu68341@icloud.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
